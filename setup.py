@@ -17,8 +17,8 @@ setup(
     author='Fabio Oliveira',
     author_email='lopesoliveirafabio@hotmail.com',
     description=description,
-    keywords='Lektor plugin',
-    license='MIT',
+    keywords='Lektor plugin static-site Tawk',
+    license='BSD',
     long_description=readme,
     long_description_content_type='text/markdown',
     name='lektor-tawk',
@@ -28,7 +28,10 @@ setup(
     version='0.1',
     classifiers=[
         'Framework :: Lektor',
+        'Environment :: Web Environment',
         'Environment :: Plugins',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License'
     ],
     entry_points={
         'lektor.plugins': [
