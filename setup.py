@@ -18,7 +18,7 @@ setup(
     author_email='lopesoliveirafabio@hotmail.com',
     description=description,
     keywords='Lektor plugin static-site Tawk',
-    license='BSD',
+    license='MIT',
     long_description=readme,
     long_description_content_type='text/markdown',
     name='lektor-tawk',
@@ -31,7 +31,7 @@ setup(
         'Environment :: Web Environment',
         'Environment :: Plugins',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License'
+        'License :: OSI Approved :: MIT License'
     ],
     entry_points={
         'lektor.plugins': [
